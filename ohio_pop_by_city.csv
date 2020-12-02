@@ -1,0 +1,1031 @@
+﻿Rank,City,Population,County
+1,Columbus,898553,Franklin County
+2,Cleveland,381009,Cuyahoga County
+3,Cincinnati,303940,Hamilton County
+4,Toledo,272779,Lucas County
+5,Akron,197597,Summit County
+6,Dayton,140407,Montgomery County
+7,Parma,78103,Cuyahoga County
+8,Canton,70447,Stark County
+9,Youngstown,65469,Mahoning County
+10,Lorain,63855,Lorain County
+11,Hamilton,62082,NaaC
+12,Springfield,58877,NaaC
+13,Kettering,54855,NaaC
+14,Elyria,53757,NaaC
+15,Newark,50315,NaaC
+16,Lakewood,49678,NaaC
+17,Cuyahoga Falls,49106,NaaC
+18,Dublin,49037,NaaC
+19,Middletown,48807,NaaC
+20,Beavercreek,47741,NaaC
+21,Mentor,47262,NaaC
+22,Mansfield,46599,NaaC
+23,Euclid,46550,NaaC
+24,Strongsville,44660,NaaC
+25,Cleveland Heights,43992,NaaC
+26,Fairfield,42558,NaaC
+27,Grove City,41820,NaaC
+28,Delaware,41283,NaaC
+29,Findlay,41225,NaaC
+30,Westerville,41103,NaaC
+31,Lancaster,40505,NaaC
+32,Warren,38752,NaaC
+33,Reynoldsburg,38327,NaaC
+34,Huber Heights,38154,NaaC
+35,Lima,36659,NaaC
+36,Hilliard,36534,NaaC
+37,Marion,35883,NaaC
+38,Gahanna,35483,NaaC
+39,Upper Arlington,35366,NaaC
+40,Brunswick,34880,NaaC
+41,Stow,34785,NaaC
+42,Boardman,34557,NaaC
+43,North Ridgeville,34392,NaaC
+44,Fairborn,33876,NaaC
+45,Mason,33870,NaaC
+46,Massillon,32584,NaaC
+47,Westlake,32032,NaaC
+48,Bowling Green,31504,NaaC
+49,North Olmsted,31341,NaaC
+50,North Royalton,30068,NaaC
+51,Kent,29646,NaaC
+52,Austintown,28386,NaaC
+53,Garfield Heights,27448,NaaC
+54,Shaker Heights,27027,NaaC
+55,Xenia,26947,NaaC
+56,Wooster,26394,NaaC
+57,Troy,26281,NaaC
+58,Medina,25956,NaaC
+59,Barberton,25953,NaaC
+60,Green,25752,NaaC
+61,Zanesville,25158,NaaC
+62,Riverside,25133,NaaC
+63,Marysville,24667,NaaC
+64,Sandusky,24564,NaaC
+65,Athens,24536,NaaC
+66,Avon Lake,24504,NaaC
+67,Trotwood,24403,NaaC
+68,Wadsworth,24046,NaaC
+69,Centerville city,23703,NaaC
+70,Avon,23399,NaaC
+71,Oxford,23110,NaaC
+72,Willoughby,22977,NaaC
+73,Solon,22779,NaaC
+74,Hudson,22237,NaaC
+75,Pickerington,22158,NaaC
+76,Maple Heights,22078,NaaC
+77,Chillicothe,21722,NaaC
+78,Perrysburg,21626,NaaC
+79,Alliance,21446,NaaC
+80,Piqua,21332,NaaC
+81,South Euclid,21297,NaaC
+82,Lebanon,20659,NaaC
+83,Sidney,20449,NaaC
+84,Ashland,20275,NaaC
+85,Portsmouth,20158,NaaC
+86,Miamisburg,20143,NaaC
+87,Oregon,20055,NaaC
+88,Rocky River,19986,NaaC
+89,White Oak,19900,NaaC
+90,Painesville,19886,NaaC
+91,Parma Heights,19790,NaaC
+92,Norwood,19776,NaaC
+93,Sylvania,19311,NaaC
+94,Broadview Heights,19102,NaaC
+95,Springboro,18931,NaaC
+96,Whitehall,18926,NaaC
+97,Twinsburg,18856,NaaC
+98,Berea,18609,NaaC
+99,Forest Park,18583,NaaC
+100,Mayfield Heights,18487,NaaC
+101,Brook Park,18382,NaaC
+102,Niles,18176,NaaC
+103,Eastlake,18042,NaaC
+104,Ashtabula,18017,NaaC
+105,Steubenville,17753,NaaC
+106,Tiffin,17582,NaaC
+107,Tallmadge,17519,NaaC
+108,New Philadelphia,17410,NaaC
+109,North Canton,17176,NaaC
+110,East Cleveland,16964,NaaC
+111,Norwalk,16867,NaaC
+112,Mount Vernon,16769,NaaC
+113,Defiance,16634,NaaC
+114,Streetsboro,16478,NaaC
+115,Aurora,16338,NaaC
+116,Fairview Park,16161,NaaC
+117,Fremont,15917,NaaC
+118,Pataskala,15883,NaaC
+119,Middleburg Heights,15432,NaaC
+120,Bay Village,15194,NaaC
+121,Vandalia,14997,NaaC
+122,Worthington,14692,NaaC
+123,New Franklin,14133,NaaC
+124,Willowick,14105,NaaC
+125,Washington Court House,14091,NaaC
+126,Circleville,14050,NaaC
+127,Monroe,14015,NaaC
+128,Bridgetown,13824,NaaC
+129,Bexley,13770,NaaC
+130,Sharonville,13684,NaaC
+131,Maumee,13669,NaaC
+132,Brecksville,13604,NaaC
+133,Englewood,13435,NaaC
+134,Powell,13375,NaaC
+135,Lyndhurst,13366,NaaC
+136,Marietta,13356,NaaC
+137,Bellefontaine,13249,NaaC
+138,Fostoria,13225,NaaC
+139,Clayton,13222,NaaC
+140,Loveland,13145,NaaC
+141,Trenton,13141,NaaC
+142,Warrensville Heights,13108,NaaC
+143,Monfort Heights,13064,NaaC
+144,West Carrollton,12864,NaaC
+145,University Heights,12797,NaaC
+146,Wickliffe,12744,NaaC
+147,Dover,12723,NaaC
+148,Finneytown,12689,NaaC
+149,Greenville,12615,NaaC
+150,Conneaut,12530,NaaC
+151,Bedford,12457,NaaC
+152,Blue Ash,12372,NaaC
+153,Wilmington,12366,NaaC
+154,Amherst,12219,NaaC
+155,Macedonia,12000,NaaC
+156,Norton,11966,NaaC
+157,Harrison,11896,NaaC
+158,Bucyrus,11764,NaaC
+159 TIE,Franklin and Salem,11612,NaaC
+160 TIE,Seven Hills and Beachwood,11590,NaaC
+161,Mack,11422,NaaC
+162,Urbana,11404,NaaC
+163,Dent,11378,NaaC
+164,Ravenna,11361,NaaC
+165,Springdale,11166,NaaC
+166,Coshocton,11051,NaaC
+167,Heath,10942,NaaC
+168,New Albany,10933,NaaC
+169,Montgomery,10872,NaaC
+170,Forestville,10866,NaaC
+171,Northbrook,10832,NaaC
+172,Van Wert,10676,NaaC
+173,Brooklyn,10646,NaaC
+174,East Liverpool,10603,NaaC
+175,Ironton,10532,NaaC
+176,Bedford Heights,10460,NaaC
+177,Celina,10425,NaaC
+178,Vermilion,10394,NaaC
+179,Richmond Heights,10342,NaaC
+180,London,10328,NaaC
+181,Reading,10296,NaaC
+182,Cambridge,10289,NaaC
+183,Tipp City,10115,NaaC
+184,Struthers,10111,NaaC
+185,Lincoln Village,10071,NaaC
+186,Galion,9982,NaaC
+187,Wapakoneta,9698,NaaC
+188,Blacklick Estates,9596,NaaC
+189,Willoughby Hills,9553,NaaC
+190,Louisville,9360,NaaC
+191,North College Hill,9283,NaaC
+192,Madeira,9245,NaaC
+193,Girard,9227,NaaC
+194,Beckett Ridge,9114,NaaC
+195,Shelby,9031,NaaC
+196,Oakwood city,8936,NaaC
+197,Sheffield Lake,8916,NaaC
+198,Olmsted Falls,8828,NaaC
+199,Canal Winchester,8818,NaaC
+200,Perry Heights,8581,NaaC
+201,North Madison,8573,NaaC
+202,Wyoming,8562,NaaC
+203,Orrville,8419,NaaC
+204,Highland Heights,8373,NaaC
+205,Grandview Heights,8333,NaaC
+206,Bryan,8230,NaaC
+207,Cheviot,8209,NaaC
+208,Napoleon,8207,NaaC
+209,Oberlin,8199,NaaC
+210,Kenton,8180,NaaC
+211,St. Marys,8160,NaaC
+212,Eaton,8145,NaaC
+213,Bellevue,7891,NaaC
+214,Withamsville,7788,NaaC
+215,Campbell,7785,NaaC
+216,Dry Run,7754,NaaC
+217,Fairlawn,7514,NaaC
+218,Hubbard,7419,NaaC
+219,Wauseon,7410,NaaC
+220,Mentor-on-the-Lake,7390,NaaC
+221,Bellbrook,7344,NaaC
+222,Northridge,7343,NaaC
+223,Kenwood,7244,NaaC
+224,Landen,7214,NaaC
+225,Canfield,7176,NaaC
+226,Independence,7175,NaaC
+227,Portage Lakes,7139,NaaC
+228,Northgate,7099,NaaC
+229,Logan,7020,NaaC
+230,Delphos,6937,NaaC
+231,Union,6891,NaaC
+232,Huron,6869,NaaC
+233,Milford,6855,NaaC
+234,Kirtland,6812,NaaC
+235,Cortland,6768,NaaC
+236,Mount Healthy,6736,NaaC
+237,Groesbeck,6656,NaaC
+238,Rossford,6562,NaaC
+239,Hillsboro,6554,NaaC
+240,Martins Ferry,6517,NaaC
+241,Rittman,6506,NaaC
+242,Champion Heights,6495,NaaC
+243,Moraine,6470,NaaC
+244,Upper Sandusky,6440,NaaC
+245,Howland Center,6400,NaaC
+246,Belpre,6386,NaaC
+247,Sunbury,6367,NaaC
+248,Pepper Pike,6330,NaaC
+249,Columbiana,6250,NaaC
+250,Jackson,6230,NaaC
+251,Covedale,6209,NaaC
+252,Port Clinton,6176,NaaC
+253,Clyde,6166,NaaC
+254,Ontario,6084,NaaC
+255,Willard,6016,NaaC
+256,Wheelersburg,5996,NaaC
+257,Fort Shawnee,5960,NaaC
+258,Geneva,5937,NaaC
+259,Granville,5916,NaaC
+260,Brookville,5874,NaaC
+261,The Village of Indian Hill,5786,NaaC
+262,Grafton,5707,NaaC
+263,Groveport,5621,NaaC
+264,New Carlisle,5568,NaaC
+265,Deer Park,5566,NaaC
+266,Ada,5544,NaaC
+267,Waterville,5539,NaaC
+268,Germantown,5519,NaaC
+269,Wellston,5507,NaaC
+270,Carlisle,5446,NaaC
+271,Northwood,5434,NaaC
+272 TIE,Apple Valley and Canal Fulton,5408,NaaC
+273,Mount Carmel,5372,NaaC
+274,Turpin Hills,5351,NaaC
+275,Uhrichsville,5314,NaaC
+276,Delhi Hills,5308,NaaC
+277,Obetz,5196,NaaC
+278,Chardon,5159,NaaC
+279,St. Clairsville,5141,NaaC
+280,Nelsonville,5130,NaaC
+281,Johnstown,5098,NaaC
+282,Munroe Falls,5063,NaaC
+283,Amelia,5039,NaaC
+284,Montrose-Ghent,4928,NaaC
+285,Toronto,4923,NaaC
+286,Wellington,4912,NaaC
+287,Miami Heights,4873,NaaC
+288,Whitehouse,4845,NaaC
+289,West Milton,4828,NaaC
+290,New Burlington,4819,NaaC
+291,Silverton,4727,NaaC
+292,Summerside,4692,NaaC
+293,Lexington,4682,NaaC
+294,New Lexington,4671,NaaC
+295,South Lebanon,4668,NaaC
+296,Pleasant Run Farm,4653,NaaC
+297,Plain City,4586,NaaC
+298,Lake Darby,4577,NaaC
+299,Coldwater,4562,NaaC
+300,Greenfield,4556,NaaC
+301,Cherry Grove,4521,NaaC
+302,Reminderville,4517,NaaC
+303,Huber Ridge,4511,NaaC
+304,Ottawa Hills,4488,NaaC
+305,Newton Falls,4471,NaaC
+306,Pleasant Run,4460,NaaC
+307,Mount Repose,4446,NaaC
+308,West Jefferson,4431,NaaC
+309,Crestline,4425,NaaC
+310,East Palestine,4424,NaaC
+311,Sheffield,4402,NaaC
+312,Ashville,4385,NaaC
+313,Ottawa,4357,NaaC
+314,St. Bernard,4336,NaaC
+315,Cedarville,4320,NaaC
+316,Archbold,4319,NaaC
+317,Blanchester,4262,NaaC
+318,Edgewood,4251,NaaC
+319,Georgetown,4243,NaaC
+320,Waverly,4236,NaaC
+321,Sebring,4186,NaaC
+322 TIE,Bluffton and Park Layne,4082,NaaC
+323,Bellaire,4013,NaaC
+324,Barnesville,3998,NaaC
+325,New Lebanon,3984,NaaC
+326,Chagrin Falls,3941,NaaC
+327,Fruit Hill,3931,NaaC
+328,Montpelier,3924,NaaC
+329,Swanton,3858,NaaC
+330,South Point,3839,NaaC
+331,Mogadore,3821,NaaC
+332,Mulberry,3772,NaaC
+333 TIE,South Russell and Yellow Springs,3744,NaaC
+334,Newcomerstown,3737,NaaC
+335,Mount Gilead,3678,NaaC
+336,Wintersville,3669,NaaC
+337,Northfield,3663,NaaC
+338,Richfield,3644,NaaC
+339,Oakwood village,3624,NaaC
+340,Minerva,3620,NaaC
+341,Golf Manor,3575,NaaC
+342,Greenhills,3567,NaaC
+343,Gallipolis,3556,NaaC
+344,Carey,3554,NaaC
+345,Shadyside,3547,NaaC
+346,North Baltimore,3545,NaaC
+347,Amberley,3543,NaaC
+348,Calcutta,3538,NaaC
+349 TIE,Ross and Brimfield,3526,NaaC
+350,Mariemont,3518,NaaC
+351,Mineral Ridge,3477,NaaC
+352,Sherwood,3448,NaaC
+353,Mount Orab,3444,NaaC
+354 TIE,Dillonvale CDP and Lockland,3441,NaaC
+355,Hicksville,3434,NaaC
+356,Paulding,3423,NaaC
+357,Lake Lakengren,3415,NaaC
+358,Woodlawn,3402,NaaC
+359,Four Bridges,3387,NaaC
+360,Cleves,3375,NaaC
+361,Lincoln Heights,3349,NaaC
+362,Mayfield,3337,NaaC
+363,Taylor Creek,3336,NaaC
+364,Wellsville,3306,NaaC
+365,Moreland Hills,3303,NaaC
+366,Richville,3298,NaaC
+367,Beechwood Trails,3297,NaaC
+368,Orange,3290,NaaC
+369 TIE,Delshire and Salem Heights,3277,NaaC
+370,Lordstown,3258,NaaC
+371,Uniontown,3250,NaaC
+372,Greentown,3240,NaaC
+373,Mingo Junction,3205,NaaC
+374,Millersburg,3200,NaaC
+375,Waynesville,3181,NaaC
+376,Madison,3166,NaaC
+377 TIE,Cadiz and West Union,3161,NaaC
+378,Walbridge,3153,NaaC
+379,Delta,3100,NaaC
+380,Hartville,3079,NaaC
+381,Lakemore,3072,NaaC
+382 TIE,Doylestown and Fairport Harbor,3067,NaaC
+383,McDonald,3040,NaaC
+384,Carrollton,3026,NaaC
+385,Baltimore,3004,NaaC
+386,The Plains,3001,NaaC
+387,Jefferson,2990,NaaC
+388,New Bremen,2963,NaaC
+389,Day Heights,2910,NaaC
+390,Lodi,2899,NaaC
+391,Buckeye Lake,2871,NaaC
+392,Bainbridge CDP,2870,NaaC
+393,Minster,2817,NaaC
+394,Bethel,2811,NaaC
+395,Sixteen Mile Stand,2804,NaaC
+396,Mount Healthy Heights,2796,NaaC
+397,West Portsmouth,2795,NaaC
+398,North Kingsville,2792,NaaC
+399,Ballville,2737,NaaC
+400,Evendale,2727,NaaC
+401,Covington,2708,NaaC
+402,Oak Harbor,2707,NaaC
+403,Middlefield,2700,NaaC
+404,New Richmond,2698,NaaC
+405,Strasburg,2688,NaaC
+406,Newtown,2669,NaaC
+407,Burlington,2643,NaaC
+408,Lisbon,2640,NaaC
+409,Dry Ridge,2630,NaaC
+410,Loudonville,2617,NaaC
+411,Devola,2599,NaaC
+412,Dennison,2594,NaaC
+413 TIE,Sabina and Wright-Patterson AFB,2579,NaaC
+414,Williamsburg,2569,NaaC
+415,Versailles,2560,NaaC
+416,St. Henry,2555,NaaC
+417,Fredericktown,2525,NaaC
+418,Skyline Acres,2522,NaaC
+419,Gibsonburg,2496,NaaC
+420,Silver Lake,2494,NaaC
+421,Gambier,2486,NaaC
+422,Crooksville,2482,NaaC
+423,Richwood,2480,NaaC
+424,LaGrange,2479,NaaC
+425,Hebron,2477,NaaC
+426,Seville,2425,NaaC
+427,Middleport,2408,NaaC
+428,North Zanesville,2390,NaaC
+429,Enon,2386,NaaC
+430,New Miami,2381,NaaC
+431,Poland,2378,NaaC
+432,Green Meadows,2366,NaaC
+433,New London,2358,NaaC
+434,Byesville,2352,NaaC
+435,Churchill,2328,NaaC
+436,Garrettsville,2315,NaaC
+437,West Lafayette,2307,NaaC
+438,Terrace Park,2295,NaaC
+439,Wilberforce,2291,NaaC
+440 TIE,Chesterland and Genoa,2277,NaaC
+441,Walton Hills,2269,NaaC
+442,Utica,2260,NaaC
+443,Shawnee Hills CDP,2254,NaaC
+444,Bolindale,2246,NaaC
+445,Sugarcreek,2234,NaaC
+446,Centerburg,2226,NaaC
+447,New Concord,2219,NaaC
+448 TIE,Woodsfield and Gates Mills,2217,NaaC
+449,Hunter,2210,NaaC
+450,Elmwood Place,2207,NaaC
+451,Windham,2202,NaaC
+452,Glendale,2181,NaaC
+453,Creston,2170,NaaC
+454,Spencerville,2161,NaaC
+455,Brewster,2153,NaaC
+456,Piketon,2140,NaaC
+457,Jamestown,2136,NaaC
+458,New Boston,2099,NaaC
+459,South Zanesville,2095,NaaC
+460,Columbus Grove,2079,NaaC
+461,Coal Grove,2074,NaaC
+462,Cardington,2071,NaaC
+463,Newburgh Heights,2049,NaaC
+464,West Hill,2045,NaaC
+465,Leipsic,2022,NaaC
+466,Woodville,2016,NaaC
+467,St. Paris,2010,NaaC
+468,Arcanum,2008,NaaC
+469,Edgerton,1999,NaaC
+470,Valley View,1997,NaaC
+471,Rosemount,1993,NaaC
+472,Drexel,1991,NaaC
+473,Batavia,1983,NaaC
+474,South Bloomfield,1979,NaaC
+475,Camden,1973,NaaC
+476,Manchester,1955,NaaC
+477,Bellville,1931,NaaC
+478,Glenmoor,1918,NaaC
+479,Masury,1893,NaaC
+480 TIE,Loveland Park and Dalton,1888,NaaC
+481,Bradford,1866,NaaC
+482,Roseville,1839,NaaC
+483,Leetonia,1832,NaaC
+484,Navarre,1812,NaaC
+485,Elida,1803,NaaC
+486,Plymouth,1801,NaaC
+487,West Liberty,1799,NaaC
+488,Lithopolis,1796,NaaC
+489,Mount Sterling,1793,NaaC
+490,Cridersville,1792,NaaC
+491,Glouster,1780,NaaC
+492,Lake Mohawk,1771,NaaC
+493,Pomeroy,1757,NaaC
+494,McConnelsville,1749,NaaC
+495,Lewisburg,1746,NaaC
+496,Rossmoyne,1744,NaaC
+497,New California,1738,NaaC
+498,Bridgeport,1728,NaaC
+499,Five Points,1723,NaaC
+500,Deshler,1721,NaaC
+501,Peebles,1717,NaaC
+502,Caldwell,1712,NaaC
+503,Fairfax,1701,NaaC
+504,Ripley,1697,NaaC
+505,Dresden,1691,NaaC
+506,Antwerp,1683,NaaC
+507,Pleasant Grove,1682,NaaC
+508,Commercial Point,1679,NaaC
+509,South Amherst,1675,NaaC
+510,West Unity,1672,NaaC
+511,Holland,1655,NaaC
+512,Weston,1647,NaaC
+513,McArthur,1643,NaaC
+514,McComb,1638,NaaC
+515,Perry,1626,NaaC
+516,South Charleston,1619,NaaC
+517,Ashley,1608,NaaC
+518,Aberdeen,1604,NaaC
+519,Brilliant,1596,NaaC
+520,Orwell,1594,NaaC
+521,Mechanicsburg,1591,NaaC
+522,Union City,1588,NaaC
+523,Kalida,1587,NaaC
+524,Franklin Furnace,1582,NaaC
+525,East Canton,1576,NaaC
+526,New Paris,1572,NaaC
+527,Kings Mills,1564,NaaC
+528,Miamitown,1560,NaaC
+529,New Middletown,1550,NaaC
+530,Choctaw Lake,1547,NaaC
+531,Brookfield Center,1541,NaaC
+532,Fort Loramie,1523,NaaC
+533,Oak Hill,1522,NaaC
+534 TIE,"Powhatan Point, Anna, and Shreve",1520,NaaC
+535,Leavittsburg,1516,NaaC
+536,West Salem,1511,NaaC
+537,Dunlap,1498,NaaC
+538,Brooklyn Heights,1497,NaaC
+539,Harbor Hills,1485,NaaC
+540,Lucasville,1484,NaaC
+541,Lynchburg,1483,NaaC
+542,Crystal Lakes,1467,NaaC
+543 TIE,North Lewisburg and Jackson Center,1465,NaaC
+544,Fort Recovery,1458,NaaC
+545,Somerset,1455,NaaC
+546 TIE,Bremen and Roaming Shores,1452,NaaC
+547,Burton,1451,NaaC
+548,Arlington,1442,NaaC
+549,Forest,1431,NaaC
+550,Curtice,1428,NaaC
+551,Greenwich,1422,NaaC
+552,Pemberville,1420,NaaC
+553,Pioneer,1399,NaaC
+554,Elmore,1396,NaaC
+555 TIE,Russells Point and Holiday Valley,1390,NaaC
+556,Monroeville,1350,NaaC
+557,Highpoint,1338,NaaC
+558,Pheasant Run,1337,NaaC
+559,Milan,1334,NaaC
+560,Beverly,1332,NaaC
+561,Sawyerwood,1331,NaaC
+562 TIE,West Alexandria and Morrow,1325,NaaC
+563,Granville South,1324,NaaC
+564,Leesburg,1323,NaaC
+565,Minerva Park,1321,NaaC
+566,Frazeysburg,1316,NaaC
+567,Boston Heights,1314,NaaC
+568,Stony Prairie,1307,NaaC
+569,Green Springs,1306,NaaC
+570,Stryker,1300,NaaC
+571,Wetherington,1283,NaaC
+572,De Graff,1276,NaaC
+573,Tiltonsville,1274,NaaC
+574,Walnut Creek,1271,NaaC
+575,Smithville,1259,NaaC
+576,Gnadenhutten,1258,NaaC
+577,Pleasant Hill,1254,NaaC
+578,Millbury,1247,NaaC
+579,Eaton Estates,1244,NaaC
+580,Fayette,1241,NaaC
+581,Haskins,1237,NaaC
+582,Wolfhurst,1232,NaaC
+583,New Vienna,1228,NaaC
+584,La Croft,1226,NaaC
+585,Coldstream,1224,NaaC
+586,Salineville,1218,NaaC
+587,Bethesda,1212,NaaC
+588,Clinton,1209,NaaC
+589,Hanover,1204,NaaC
+590,New Madison,1201,NaaC
+591,Geneva-on-the-Lake,1199,NaaC
+592 TIE,Apple Creek and New Waterford,1180,NaaC
+593,Westfield Center,1179,NaaC
+594,Jeffersonville,1172,NaaC
+595 TIE,Bratenahl and Hiram,1159,NaaC
+596,Botkins,1158,NaaC
+597,Grandview,1149,NaaC
+598,Payne,1139,NaaC
+599,Reno,1138,NaaC
+600,Lake Lorelei,1137,NaaC
+601,Sardinia,1136,NaaC
+602,Malvern,1130,NaaC
+603 TIE,Ansonia and Liberty Center,1121,NaaC
+604,Blue Jay,1111,NaaC
+605,Craig Beach,1110,NaaC
+606 TIE,Pandora and Maineville,1107,NaaC
+607,Lakeview,1106,NaaC
+608,Rockford,1104,NaaC
+609,Continental,1101,NaaC
+610,Andover,1095,NaaC
+611 TIE,Cinnamon Lake and Lowellville,1092,NaaC
+612,Fairfield Beach,1084,NaaC
+613,Atwater,1078,NaaC
+614,Williamsdale,1076,NaaC
+615 TIE,Williamsport and Millersport,1074,NaaC
+616 TIE,Holgate and Convoy,1059,NaaC
+617,Prospect,1058,NaaC
+618,Sciotodale,1057,NaaC
+619,Tuscarawas,1053,NaaC
+620,Duncan Falls,1052,NaaC
+621,Frankfort,1048,NaaC
+622,Luckey,1044,NaaC
+623,Chauncey,1035,NaaC
+624,Wakeman,1032,NaaC
+625,Glandorf,1025,NaaC
+626,Logan Elm Village,1022,NaaC
+627,Mantua,1020,NaaC
+628,Bradner,1018,NaaC
+629,Kingston,1017,NaaC
+630,Danville,1015,NaaC
+631,Thornville,1008,NaaC
+632,Winchester,1006,NaaC
+633,Yorkville,1005,NaaC
+634,Grand Rapids,1004,NaaC
+635,Farmersville,1002,NaaC
+636 TIE,Urbancrest and Lake Waynoka,993,NaaC
+637,North Randall,988,NaaC
+638,Beach City,981,NaaC
+639,Bolivar,970,NaaC
+640 TIE,Thornport and Ottoville,964,NaaC
+641,Magnolia,962,NaaC
+642,Highland Hills,960,NaaC
+643,Pleasantville,959,NaaC
+644,Etna,948,NaaC
+645,Addyston,936,NaaC
+646 TIE,Hilltop and Beloit,924,NaaC
+647,Kidron,922,NaaC
+648,Wayne,921,NaaC
+649 TIE,New Washington and New Baltimore,920,NaaC
+650 TIE,Killbuck and Glenwillow,919,NaaC
+651,Bloomingburg,915,NaaC
+652,Bloomville,911,NaaC
+653,Waynesburg,908,NaaC
+654,Darbydale,904,NaaC
+655,Hopedale,903,NaaC
+656,Milford Center,902,NaaC
+657,Seaman,895,NaaC
+658 TIE,South Canal and Butler,894,NaaC
+659,Albany,891,NaaC
+660,North Perry,884,NaaC
+661,North Bend,873,NaaC
+662,Newport,867,NaaC
+663,New Knoxville,866,NaaC
+664,Matamoras,865,NaaC
+665 TIE,Hamden and Marblehead,864,NaaC
+666,Berlin,863,NaaC
+667,Attica,861,NaaC
+668,Felicity,858,NaaC
+669 TIE,"Woodmere, Andersonville, and Maple Ridge",853,NaaC
+670,New Holland,851,NaaC
+671,Bainbridge,850,NaaC
+672,Bentleyville,846,NaaC
+673,Gratis,843,NaaC
+674,Dunkirk,840,NaaC
+675,Alger,839,NaaC
+676,Flushing,832,NaaC
+677,Owensville,828,NaaC
+678,Shawnee Hills,820,NaaC
+679,Belle Center,818,NaaC
+680,Waynesfield,817,NaaC
+681,Syracuse,816,NaaC
+682,Castalia,815,NaaC
+683,Sycamore,814,NaaC
+684,Sherwood village,811,NaaC
+685,Edon,810,NaaC
+686 TIE,South Webster and Junction City,805,NaaC
+687,East Sparta,799,NaaC
+688,Smithfield,790,NaaC
+689,Spencer,789,NaaC
+690,Seven Mile,784,NaaC
+691 TIE,Rio Grande and Lake Tomahawk,781,NaaC
+692,Pleasant Hills,779,NaaC
+693 TIE,Marshallville and Baltic,776,NaaC
+694,Morgandale,753,NaaC
+695,Gettysburg,752,NaaC
+696,Washingtonville,750,NaaC
+697,Ostrander,749,NaaC
+698,Chippewa Lake,745,NaaC
+699,Midvale,744,NaaC
+700,Galena,742,NaaC
+701,Arlington Heights,741,NaaC
+702,Amanda,738,NaaC
+703,Twinsburg Heights,735,NaaC
+704,Millville,733,NaaC
+705,Marble Cliff,732,NaaC
+706,Nevada,729,NaaC
+707,Philo,728,NaaC
+708,Pigeon Creek,721,NaaC
+709,Chippewa Park,720,NaaC
+710,Perrysville,717,NaaC
+711,Scio,716,NaaC
+712,Hunting Valley,715,NaaC
+713,La Rue,714,NaaC
+714,Berlin Heights,713,NaaC
+715,New Straitsville,710,NaaC
+716,Mineral City,708,NaaC
+717 TIE,"Concorde Hills, Quincy, and Adena",704,NaaC
+718,Chesapeake,702,NaaC
+719,Warsaw,693,NaaC
+720,Marne,692,NaaC
+721,McDermott,691,NaaC
+722,Bloomdale,683,NaaC
+723,Wayne Lakes,682,NaaC
+724,Rocky Fork Point,681,NaaC
+725,McClure,680,NaaC
+726,West Mansfield,678,NaaC
+727,Ohio City,677,NaaC
+728,Lakeside,674,NaaC
+729 TIE,Russia and Racine,664,NaaC
+730,Sardis,659,NaaC
+731,Lake Buckhorn,654,NaaC
+732 TIE,Waterford and Jewett,651,NaaC
+733,Timberlake,648,NaaC
+734,Kirtland Hills,644,NaaC
+735,Shawnee,642,NaaC
+736,Mendon,641,NaaC
+737,Malta,640,NaaC
+738,Valleyview,638,NaaC
+739,Risingsun,629,NaaC
+740,Lansing,627,NaaC
+741 TIE,"Vienna Center, Iberia, and Neffs",623,NaaC
+742,Bettsville,622,NaaC
+743 TIE,Dillonvale and Shiloh,619,NaaC
+744,Cygnet,618,NaaC
+745,Bergholz,615,NaaC
+746,Metamora,608,NaaC
+747,Cuyahoga Heights,607,NaaC
+748,Mount Victory,606,NaaC
+749,Thurston,604,NaaC
+750,Bay View,602,NaaC
+751,Shawnee CDP,598,NaaC
+752 TIE,Austinburg and Kinsman Center,595,NaaC
+753,Lucas,592,NaaC
+754,Holiday Lakes,590,NaaC
+755,Arcadia,588,NaaC
+756,Oakwood,587,NaaC
+757,Lake Milton,582,NaaC
+758,Rudolph,579,NaaC
+759,Brookside,575,NaaC
+760,Corning,568,NaaC
+761 TIE,Harveysburg and Buchtel,567,NaaC
+762,Carroll,566,NaaC
+763 TIE,"Stoutsville, Riverlea, Port Washington, and Meyers Lake",565,NaaC
+764,Middle Point,562,NaaC
+765 TIE,"Hide-A-Way Hills, Rawson, and Caledonia",557,NaaC
+766,Hamler,555,NaaC
+767,Peninsula,554,NaaC
+768 TIE,Kirkersville and Valley City,552,NaaC
+769,Phillipsburg,550,NaaC
+770 TIE,Clarksville and Jeromesville,549,NaaC
+771,Lyons,548,NaaC
+772,Westminster,544,NaaC
+773 TIE,Proctorville and Alexandria,542,NaaC
+774,North Fairfield,534,NaaC
+775 TIE,Collins and Lowell,531,NaaC
+776,Rushsylvania,530,NaaC
+777,Candlewood Lake,526,NaaC
+778 TIE,Ridgeville Corners and Brady Lake,525,NaaC
+779,Cairo,523,NaaC
+780,Republic,520,NaaC
+781,Brecon,518,NaaC
+782,Lake Seneca,517,NaaC
+783 TIE,McKinley Heights and Russellville,512,NaaC
+784 TIE,New Bloomington and East Springfield,511,NaaC
+785,Minford,508,NaaC
+786 TIE,New Haven CDP and Rock Creek,507,NaaC
+787,Christiansburg,505,NaaC
+788,Darrtown,504,NaaC
+789,Laurelville,503,NaaC
+790,Hamersville,502,NaaC
+791,Van Buren,500,NaaC
+792,Spring Valley,499,NaaC
+793 TIE,Coolville and Laura,494,NaaC
+794,Eldorado,490,NaaC
+795,Fort Jennings,488,NaaC
+796,McGuffey,487,NaaC
+797 TIE,Mount Blanchard and Quaker City,486,NaaC
+798,West Farmington,484,NaaC
+799 TIE,Fletcher and Stockport,483,NaaC
+800 TIE,Jacksonville and Portage,480,NaaC
+801 TIE,Verona and Whites Landing,478,NaaC
+802,Homeworth,476,NaaC
+803 TIE,Corwin and Coalton,473,NaaC
+804,Amsterdam,472,NaaC
+805,North Hampton,468,NaaC
+806,Goshen,463,NaaC
+807,Hayesville,458,NaaC
+808 TIE,Waite Hill and Pettisville,455,NaaC
+809,Martinsville,452,NaaC
+810,Senecaville,449,NaaC
+811 TIE,"Huntsville, West Manchester, and Richmond",446,NaaC
+812,Gloria Glens Park,445,NaaC
+813,Clarksburg,444,NaaC
+814 TIE,Mount Pleasant and Edison,443,NaaC
+815,Jerry City,436,NaaC
+816,Murray City,435,NaaC
+817,Belmont,434,NaaC
+818 TIE,Stony Ridge and Beaver,432,NaaC
+819,Derby,431,NaaC
+820,Sugar Grove,426,NaaC
+821,Pleasant City,423,NaaC
+822,Lindsey,422,NaaC
+823 TIE,Lafayette and College Corner,417,NaaC
+824,Little Hocking,416,NaaC
+825,Savannah,415,NaaC
+826,Fredericksburg,412,NaaC
+827,New Pittsburg,411,NaaC
+828,Hartford,410,NaaC
+829 TIE,"Rocky Ridge, Williston, and Clarktown",407,NaaC
+830,Sterling,406,NaaC
+831,Trimble,404,NaaC
+832 TIE,"Harrod, Hannibal, and Highland Holiday",403,NaaC
+833 TIE,"Crown City, Damascus, Holmesville, and Grand River",402,NaaC
+834 TIE,Hooven and South Vienna,400,NaaC
+835,Rayland,393,NaaC
+836,Barnhill,391,NaaC
+837,Hanoverton,388,NaaC
+838,St. Louisville,386,NaaC
+839 TIE,Tontogany and Morral,382,NaaC
+840,Willshire,381,NaaC
+841,Beallsville,380,NaaC
+842 TIE,Bowerston and Rutland,378,NaaC
+843 TIE,Newtonsville and Grover Hill,376,NaaC
+844,Adelphi,375,NaaC
+845,Tuppers Plains,372,NaaC
+846 TIE,Beaverdam and Bascom,371,NaaC
+847,New Marshfield,369,NaaC
+848,Richmond Dale,367,NaaC
+849 TIE,"Plumwood, Pitsburg, and Bailey Lakes",365,NaaC
+850,South Solon,364,NaaC
+851,Clarington,363,NaaC
+852,Port Jefferson,361,NaaC
+853 TIE,Marlboro and Irondale,358,NaaC
+854 TIE,Olde West Chester and Tremont City,357,NaaC
+855 TIE,Vanlue and Green Camp,355,NaaC
+856,Athalia,354,NaaC
+857,Mowrystown,352,NaaC
+858,Freeport,350,NaaC
+859 TIE,Cumberland and Canal Lewisville,349,NaaC
+860,Conesville,343,NaaC
+861 TIE,"Ney, Harrisburg, and Marengo",341,NaaC
+862 TIE,Wharton and Aquilla,338,NaaC
+863 TIE,"Dellroy, Polk, and Bowersville",330,NaaC
+864,Ridgeway,329,NaaC
+865,Midway,328,NaaC
+866,Stewart,327,NaaC
+867,Waldo,324,NaaC
+868,Camp Dennison,320,NaaC
+869 TIE,Holloway and Hoytville,317,NaaC
+870,Fayetteville,316,NaaC
+871,East Fultonham,314,NaaC
+872,Kelleys Island,311,NaaC
+873 TIE,Rushville and Elizabethtown,309,NaaC
+874 TIE,"Kunkle, New Athens, Lore City, and Midland",308,NaaC
+875,Buffalo,306,NaaC
+876,Wilmot,304,NaaC
+877,Dupont,303,NaaC
+878 TIE,Clay Center and Haydenville,302,NaaC
+879,Magnetic Springs,298,NaaC
+880 TIE,Potsdam and Glenmont,297,NaaC
+881,Millfield,294,NaaC
+882 TIE,"Chickasaw, Maplewood Park, and Benton Ridge",292,NaaC
+883,Woodstock,291,NaaC
+884 TIE,"Sandyville, Cherry Fork, and Tarlton",290,NaaC
+885,Carbon Hill,289,NaaC
+886,Morristown,288,NaaC
+887,Neapolis,287,NaaC
+888 TIE,Fresno and Osgood,282,NaaC
+889,McCutchenville,281,NaaC
+890 TIE,"East Liberty, Sherrodsville, and Empire",280,NaaC
+891 TIE,Winesburg and Bourneville,279,NaaC
+892,Casstown,278,NaaC
+893 TIE,"Stratton, Chesterhill, and Mitiwanga",275,NaaC
+894 TIE,"Remington, Burkettsville, Catawba, Scott, and Dundee",273,NaaC
+895,Zaleski,271,NaaC
+896,New Haven,270,NaaC
+897,Old Washington,268,NaaC
+898,St. Martin,265,NaaC
+899,Tiro,262,NaaC
+900,Donnelsville,261,NaaC
+901,Melrose,260,NaaC
+902,Fulton,255,NaaC
+903 TIE,"Nettle Lake, Lewistown, and Orient",254,NaaC
+904 TIE,Malinta and New Alexandria,252,NaaC
+905 TIE,New Hampshire and Highland,250,NaaC
+906,Lockbourne,249,NaaC
+907 TIE,Summerfield and Port William,248,NaaC
+908,Rose Farm,247,NaaC
+909,Somerville,244,NaaC
+910 TIE,Vincent and Higginsport,242,NaaC
+911,Robertsville,241,NaaC
+912 TIE,Berkey and New Riegel,236,NaaC
+913,Mount Eaton,234,NaaC
+914 TIE,Kipton and Martinsburg,233,NaaC
+915,Chesterville,232,NaaC
+916 TIE,"Unionville Center, Miamiville, and Darbyville",229,NaaC
+917,Good Hope,227,NaaC
+918,Rogers,224,NaaC
+919,Harrisville,223,NaaC
+920 TIE,"Fort Seneca, Uniopolis, and Buckland",222,NaaC
+921 TIE,"North Star, North Lawrence, and Hills and Dales",221,NaaC
+922,Gratiot,220,NaaC
+923 TIE,"Connorville, Belle Valley, and Valley Hi",218,NaaC
+924,Lakeline,217,NaaC
+925 TIE,"Trinway, Ludlow Falls, and Hollansburg",216,NaaC
+926 TIE,Jenera and Roswell,215,NaaC
+927,Florida,214,NaaC
+928,East Rochester,213,NaaC
+929,Parral,212,NaaC
+930,Vinton,210,NaaC
+931 TIE,Helena and Hanging Rock,209,NaaC
+932,Gordon,208,NaaC
+933,Vaughnsville,203,NaaC
+934 TIE,"South Salem, Haviland, Pottery Addition, and Hessville",201,NaaC
+935 TIE,North Robinson and Burbank,198,NaaC
+936 TIE,Mount Cory and Zanesfield,196,NaaC
+937 TIE,Harpster and Rosewood,192,NaaC
+938,Moscow,191,NaaC
+939 TIE,Lafayette CDP and West Leipsic,190,NaaC
+940,Old Fort,189,NaaC
+941 TIE,Bloomingdale and West Elkton,188,NaaC
+942 TIE,Wren and Nashville,187,NaaC
+943,Rossburg,185,NaaC
+944 TIE,Palestine and Custar,184,NaaC
+945 TIE,Sugar Bush Knolls and Latty,183,NaaC
+946 TIE,Plainville and Macksburg,182,NaaC
+947,Friendship,181,NaaC
+948 TIE,Gilboa and Bentonville,180,NaaC
+949 TIE,"Cecil, Chatfield, and Zoar",178,NaaC
+950,Congress,177,NaaC
+951 TIE,"West Millgrove, Alvordton, and Bannock",176,NaaC
+952,Rochester,175,NaaC
+953,Orangeville,174,NaaC
+954,Stone Creek,171,NaaC
+955,Kettlersville,170,NaaC
+956 TIE,"Linndale, Sarahsville, and Glenford",169,NaaC
+957,Pleasant Plain,168,NaaC
+958,Bladensburg,166,NaaC
+959,Negley,165,NaaC
+960 TIE,Burgoon and Lewisville,164,NaaC
+961,Butlerville,162,NaaC
+962,Fultonham,161,NaaC
+963 TIE,"Sparta, Melmore, and Cloverdale",160,NaaC
+964,Radnor,159,NaaC
+965 TIE,Plainfield and St. Johns,158,NaaC
+966,Montezuma,157,NaaC
+967,Raymond,156,NaaC
+968,Dola,155,NaaC
+969,Amesville,153,NaaC
+970 TIE,Hemlock and Newport CDP,152,NaaC
+971,Lafferty,151,NaaC
+972 TIE,"Glencoe, Jerusalem, and Hockingport",150,NaaC
+973 TIE,Rarden and Clifton,147,NaaC
+974 TIE,Leesville and Milton Center,146,NaaC
+975 TIE,"Wilkesville, Pancoastburg, Belmore, and Limaville",144,NaaC
+976,West Rushville,143,NaaC
+977,Miller City,142,NaaC
+978 TIE,Put-in-Bay and Flat Rock,141,NaaC
+979,Yorkshire,139,NaaC
+980,Lockington,136,NaaC
+981,Castine,135,NaaC
+982 TIE,Mifflin and Bairdstown,134,NaaC
+983 TIE,"Buford, Patterson, and Sinking Spring",133,NaaC
+984,Nellie,131,NaaC
+985 TIE,New Weston and Ithaca,129,NaaC
+986,Cheshire,128,NaaC
+987,Sulphur Springs,127,NaaC
+988,Adamsville,124,NaaC
+989 TIE,Summitville and Parkman,123,NaaC
+990,Dexter City,122,NaaC
+991,Gann,121,NaaC
+992,Brice,120,NaaC
+993,Venedocia,119,NaaC
+994 TIE,"Wilson, Salesville, and Tedrow",116,NaaC
+995,Broughton,113,NaaC
+996 TIE,Kirby and Kanauga,110,NaaC
+997,Milledgeville,109,NaaC
+998,Marseilles,107,NaaC
+999 TIE,Harbor View and Neville,106,NaaC
+1000,Pulaski,104,NaaC
+1001,Mutual,102,NaaC
+1002,Norwich,101,NaaC
+1003,Batesville,99,NaaC
+1004,Centerville,98,NaaC
+1005,Oceola,96,NaaC
+1006,Rome,95,NaaC
+1007,New Bavaria,93,NaaC
+1008,Blakeslee,91,NaaC
+1009,Tippecanoe,90,NaaC
+1010,Celeryville,89,NaaC
+1011,Howard,86,NaaC
+1012,Crystal Rock,83,NaaC
+"1,013 TIE",Otway and Lower Salem,82,NaaC
+"1,014 TIE",Brownsville and Fairview,81,NaaC
+1015,Antioch,79,NaaC
+"1,016 TIE","Deersville, Yankee Lake, and Stafford",75,NaaC
+1017,Graysville,72,NaaC
+1018,Chilo,67,NaaC
+1019,Jacksonburg,65,NaaC
+1020,Kimbolton,62,NaaC
+1021,Octa,58,NaaC
+1022,Elgin,56,NaaC
+"1,023 TIE","Wightmans Grove, Vickery, and Holiday City",47,NaaC
+1024,Miltonsburg,40,NaaC
+1025,Rendville,36,NaaC
+1026,Kilbourne,34,NaaC
+1027,Rockbridge,27,NaaC
+1028,Stockdale,19,NaaC
+1029,Kansas,15,NaaC
+1030,Beulah Beach,13,NaaC
