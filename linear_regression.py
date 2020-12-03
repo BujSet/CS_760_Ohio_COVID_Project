@@ -11,8 +11,6 @@ FEATURES = ['cumulative',
             'per_100K_last_30_days',
             'per_100K_last_14_days']
 
-
-
 parser = argparse.ArgumentParser(description='Linear Regression on COVID data')
 parser.add_argument('feature', metavar='F', type=str, 
                                                  help='The feature to predict')
