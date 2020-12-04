@@ -83,12 +83,6 @@ class DistMatrix():
                 nearest_neighbors.append(zipCode)
                 count += 1
             index += 1
-
-        # for i in range(num_neighbors + 1):
-        #     if i == 0:
-        #         # ignore comparing zipcode with itself
-        #         continue
-        #     nearest_neighbors.append(neighbors[i].dest)
         return nearest_neighbors
 
     def write_out(self):
@@ -103,4 +97,73 @@ class DistMatrix():
                     str(self.matrix[zip1][self.mappings[zip2]])+"\n")
         f.close()
 
-Distances = DistMatrix()
+# Distances = DistMatrix()
+
+class DistGrid():
+    def __init__(self):
+        f = open("ohio-zip-code-latitude-and-longitude.csv", 'r')
+        lines = f.readlines()[1:]
+        f.close()
+        self.zipcodes = dict()
+        self.reverse_mappings = dict()
+
+        for i in range(len(lines)):
+            tokens = lines[i].split(",")
+            self.zipcodes[int(tokens[0])] = i
+            self.reverse_mappings[i] = int(tokens[0])
+
+        self.num_codes = len(self.zipcodes.keys())
+        self.matrix = [[0.0 for _ in range(self.num_codes)] for _ in range(self.num_codes)]
+
+        f = open("distances.csv", 'r')
+        lines = f.readlines()[1:]
+        f.close()
+
+        for i in range(len(lines)):
+            tokens = lines[i].split(",")
+            z1 = int(tokens[0])
+            z2 = int(tokens[1])
+            dist = float(tokens[2])
+            pkt = Packet(dist, z2)
+            i1 = self.zipcodes[z1]
+            i2 = self.zipcodes[z2]
+            self.matrix[i1][i2] = pkt
+
+    def get_dist(self, zip1, zip2):
+        if not zip1 in self.zipcodes.keys():
+            raise Exception("Unknown location data for zip="+ str(zip1))
+
+        if not zip2 in self.zipcodes.keys():
+            raise Exception("Unknown location data for zip="+ str(zip2))
+
+        i1 = self.zipcodes[zip1]
+        i2 = self.zipcodes[zip2]
+
+        return self.matrix[i1][i2].dist
+
+    def get_nearest(self, z0, num_neighbors, valid_zipcodes):
+        i0 = self.zipcodes[z0]
+        sorted_neighbors = copy.deepcopy(self.matrix[i0])
+        sorted_neighbors.sort(key=lambda x: x.dist)
+        # print("Sir Hello")
+        # dists_list = []
+        # for p in sorted_neighbors:
+        #     dists_list.append(p.dist)
+        # print("sorted distances are: " + str(dists_list))
+        # print(self.matrix[i0])
+        # print("hello world")
+        sorted_neighbors = sorted_neighbors[1:]
+        count = 0
+        index = 0
+        nearest_neighbors = []
+        while (count < num_neighbors):
+            pkt = sorted_neighbors[index]
+            if not pkt.dest in valid_zipcodes:
+                index += 1
+                continue
+            nearest_neighbors.append(pkt.dest)
+            index += 1
+            count += 1
+        return nearest_neighbors
+
+Distances = DistGrid()
