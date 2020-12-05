@@ -1,7 +1,7 @@
 import argparse
 import numpy as np
 from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import cross_val_predict
+from sklearn.model_selection import train_test_split
 from distances import Distances
 
 FEATURES = ['cumulative',
@@ -16,8 +16,6 @@ parser.add_argument('feature', metavar='F', type=str,
                                                  help='The feature to predict')
 parser.add_argument('neighbors', metavar='N', type=int,
                              help="Number of neighboring zipcodes to consider")
-parser.add_argument('folds', metavar='K', type=int,
-                      help="Number of folds to performs cross validation with")
 
 args = parser.parse_args()
 if (args.neighbors < 1):
@@ -26,10 +24,6 @@ if (args.neighbors < 1):
 
 if (not args.feature in FEATURES):
     print("Error: Feature must be one of "+ str(FEATURES))
-    exit()
-
-if (args.folds < 1):
-    print("ERROR: Must specify at least 1 fold for cross validation")
     exit()
 
 print("Reading raw data from dataset.csv..", end='')
@@ -120,16 +114,13 @@ X = np.array(x).reshape((len(DATA), args.neighbors))
 Y = np.array(y).reshape((len(DATA), 1))
 print("Success!")
 
-print("Training linear regression model...", end='')
-reg  = LinearRegression().fit(X, Y)
-print("Success!")
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.25, random_state=7)
+reg = LinearRegression().fit(X_train, y_train)
+y_pred = np.array(reg.predict(X_test))
+assert(len(y_test) == len(y_pred))
+total = 0.0
+for i in range(len(y_test)):
+    total += (100.0 * abs(y_test[i][0] - y_pred[i][0])) / y_test[i][0]
+avg_error = total / len(y_test)
 
-# print(reg.score(X,Y))
-# print(reg.coef_)
-# print(reg.intercept_)
-
-print("Beginning cross-validation...", end='')
-y_pred = cross_val_predict(reg, X, Y, cv=args.folds)
-print("Success!")
-
-# print(y_pred)
+print("Average error rate of: %.2f%%" % (avg_error))
