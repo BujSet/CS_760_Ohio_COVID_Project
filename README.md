@@ -3,9 +3,26 @@
 ## Dependencies
 geopy  
 
+## Running Linear Regression Simple
+
+To run linear regression to predict a single COVID feature using on data in a 
+given zipcode, use the following command:
+
+`python linear_regression_simple.py -y LABEL -x FEATURES`
+
+Some common examples are shown below: 
+
+To run linear regression on cumulative number of COVID cases based on the number reported in the last 30 and last 14 days:  
+`python linear_regression_simple.py -y 'cumulative' -x last_30_days last_14_days`
+
+
+To run linear regression on cumulative rate of COVID cases based on the rates reported in the last 30 and last 14 days:  
+`python linear_regression_simple.py -y 'per_100K_cumulative' -x per_100K_last_30_days per_100K_last_14_days`
+
+
 ## Running Linear Regression
 
-To run the Linear Regression script, use the followign command:
+To run the Linear Regression script, use the following command:
 
 `python linear_regression.py "feature" num_neighbors num_folds`
 
