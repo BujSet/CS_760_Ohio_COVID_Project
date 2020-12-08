@@ -1,7 +1,7 @@
 # CS_760_Ohio_COVID_Project
 
 ## Dependencies
-geopy  
+geopy, scikit-learn  
 
 ## Running Linear Regression Simple
 
@@ -40,3 +40,11 @@ Where "feature" must be one of:
 num_neighbors specifies how many zipcodes to consider as neighboring
 
 num_folds specifies the number of folds to use for cross validation
+
+## Running Nearest Neighbors Regression
+
+To run the Nearest Neighbors Regression, open the Inverse_Distance_Analysis.ipynb Jupyter Notebook.
+
+Select from dropdown menus a Run All Cells option
+
+All features are run simultaneously to improve efficency and the results will be exported as csv's due to the number of results compute.
