@@ -1,3 +1,12 @@
+"""
+The contents of this file uses the scikit Linear Regression tool to predict 
+COVID related data based on data collected by zipcode. The program supports
+using COVID data of neighboring zipcodes to predict on a COVID feature.
+
+@author Ranganath (Bujji) Selagamsetty
+@author Matthew Viens
+"""
+
 import argparse
 import numpy as np
 from sklearn.linear_model import LinearRegression
@@ -11,10 +20,14 @@ FEATURES = ['cumulative',
             'per_100K_last_30_days',
             'per_100K_last_14_days']
 
+###############################################################################
+#                             INPUT VALIDATION                                #
+###############################################################################
+
 parser = argparse.ArgumentParser(description='Linear Regression on COVID data')
-parser.add_argument('feature', metavar='F', type=str, 
+parser.add_argument('-F','--feature', type=str, 
                                                  help='The feature to predict')
-parser.add_argument('neighbors', metavar='N', type=int,
+parser.add_argument('-N', 'neighbors', type=int,
                              help="Number of neighboring zipcodes to consider")
 
 args = parser.parse_args()
@@ -22,7 +35,7 @@ if (args.neighbors < 1):
     print("ERROR: Must specify at least 1 neighbor for consideration")
     exit()
 
-if (not args.feature in FEATURES):
+if not (args.feature in FEATURES):
     print("Error: Feature must be one of "+ str(FEATURES))
     exit()
 
@@ -120,7 +133,7 @@ y_pred = np.array(reg.predict(X_test))
 assert(len(y_test) == len(y_pred))
 total = 0.0
 for i in range(len(y_test)):
-    total += (100.0 * abs(y_test[i][0] - y_pred[i][0])) / y_test[i][0]
+    total += (100.0 * (y_pred[i][0] - y_test[i][0])) / y_test[i][0]
 avg_error = total / len(y_test)
 
 print("Average error rate of: %.2f%%" % (avg_error))
