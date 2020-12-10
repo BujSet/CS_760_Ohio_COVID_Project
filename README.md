@@ -53,3 +53,8 @@ To run the Nearest Neighbors Regression, open the Inverse_Distance_Analysis.ipyn
 Select from dropdown menus a Run All Cells option
 
 All features are run simultaneously to improve efficency and the results will be exported as csv's due to the number of results compute.
+
+Note that the results arrays are in terms of results[target_feature, distance_metric, neighbors_used].
+This format carries through to the csv's which are results[:,:,k] for a value of k where the corresponding number of neighbors is noted in the file name.
+All results are saved to the NN_Regression_Results file folder.
+The transpose of these results are used in the written report where it is distance_metric by target feature for a fixed number of neighbors.
