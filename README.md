@@ -1,7 +1,12 @@
 # CS_760_Ohio_COVID_Project
 
 ## Dependencies
-geopy, scikit-learn  
+
+### GeoPy
+
+This project uses GeoPy to compute the geodesic distance between two sets of longitude and lattitude coordinates. From the official [documentation](https://geopy.readthedocs.io/en/stable/), the `geodesic()` function returns the distance between two pairs of longitude and lattitude coordinates assuming the Earth's ellipsoidal shape.
+
+### scikit-learn  
 
 ## Running Linear Regression Simple
 

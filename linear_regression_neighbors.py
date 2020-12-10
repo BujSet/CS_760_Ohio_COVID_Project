@@ -25,9 +25,9 @@ FEATURES = ['cumulative',
 ###############################################################################
 
 parser = argparse.ArgumentParser(description='Linear Regression on COVID data')
-parser.add_argument('-F','--feature', type=str, 
+parser.add_argument('-f','--feature', type=str, 
                                                  help='The feature to predict')
-parser.add_argument('-N', 'neighbors', type=int,
+parser.add_argument('-n', '--neighbors', type=int,
                              help="Number of neighboring zipcodes to consider")
 
 args = parser.parse_args()
@@ -133,7 +133,7 @@ y_pred = np.array(reg.predict(X_test))
 assert(len(y_test) == len(y_pred))
 total = 0.0
 for i in range(len(y_test)):
-    total += (100.0 * (y_pred[i][0] - y_test[i][0])) / y_test[i][0]
+    total += (100.0 * abs(y_pred[i][0] - y_test[i][0])) / y_test[i][0]
 avg_error = total / len(y_test)
 
 print("Average error rate of: %.2f%%" % (avg_error))
