@@ -2,7 +2,7 @@
 
 This project was developed for the course CS-760: Machine Learning (Fall 2020).
 
-Author: Ranganath (Bujji) Selagamsetty  
+Author: Ranganath (Bujji) Selagamsetty   
 Author: Matthew Viens
 
 ## Dependencies
