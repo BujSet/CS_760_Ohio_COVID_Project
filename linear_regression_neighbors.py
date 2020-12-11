@@ -39,13 +39,19 @@ if not (args.feature in FEATURES):
     print("Error: Feature must be one of "+ str(FEATURES))
     exit()
 
-print("Reading raw data from dataset.csv..", end='')
+###############################################################################
+#                          BEGIN DATA PROCESSING                              #
+###############################################################################
+
 # First, read in raw data
 f = open("dataset.csv", 'r')
 lines = f.readlines()[1:]
 f.close()
-print("Success!")
 
+"""
+A lightweight class that associates COVID data to zipcode. Instantiations of 
+this class can be placed into a set.
+"""
 class Data():
 
     def __init__(self, zipcode, cumulative, last_30_days,last_14_days,
@@ -109,7 +115,6 @@ for i in range(len(lines)):
                                 float(tokens[7]))
     ZIPCODES.add(int(tokens[0]))
 
-print("Building feature and label vectors...", end='')
 order = []
 x = []
 y = []
@@ -125,7 +130,10 @@ for zipcode, data in DATA.items():
 
 X = np.array(x).reshape((len(DATA), args.neighbors))
 Y = np.array(y).reshape((len(DATA), 1))
-print("Success!")
+
+###############################################################################
+#                                 VALIDATION                                  #
+###############################################################################
 
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.25, random_state=7)
 reg = LinearRegression().fit(X_train, y_train)

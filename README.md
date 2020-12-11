@@ -1,4 +1,9 @@
-# CS_760_Ohio_COVID_Project
+# COVID-19 Predictors in the State of Ohio 
+
+This project was developed for the course CS-760: Machine Learning (Fall 2020).
+
+Author: Ranganath (Bujji) Selagamsetty
+Author: Matthew Viens
 
 ## Dependencies
 
