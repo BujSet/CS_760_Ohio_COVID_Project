@@ -13,7 +13,7 @@ This project uses GeoPy to compute the geodesic distance between two sets of lon
 
 ### scikit-learn  
 
-This project uses the `sklearn.linear_model.LinearRegression()` to create linear predictors for the COVID dataset `dataset.csv`. The official documentation can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).
+This project uses the `sklearn.linear_model.LinearRegression()` to create linear predictors for the COVID dataset `dataset.csv`. It also uses `sklearn.model_selection.train_test_split` to split between Train and Test data. The official documentation can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).
 
 ## Running the Scripts
 
