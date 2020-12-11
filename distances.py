@@ -1,7 +1,20 @@
+"""
+The contents of this file provide classes to parse through a zipcode location 
+data, determine the geodesic distance between different zipcodes, write those
+results out a more parsable file. 
+
+@author: Ranganath (Bujji) Selagamsetty
+@author: Matthew Viens 
+"""
+
 from  geopy.distance import geodesic
 import time
 import copy
 
+"""
+Mini class to associate ZIP code data with a particular zip code. This class 
+is both hashable and sortable.
+"""
 class Packet():
 
     def __init__(self, dist, dest):
@@ -19,6 +32,12 @@ class Packet():
     def __hash__(self, other):
         return hash((self.dist, self.dest))
 
+"""
+This class was used in development to create an easily parsable csv for 
+collecting istance values. Instantiations of this class need not be used,
+as the preprocessing has already been completed. It is not recommended to NOT
+use this class, as it is slow to instantiate. 
+"""
 class DistMatrix():
 
     def __init__(self):
@@ -59,6 +78,9 @@ class DistMatrix():
         end_time = time.time()
         print("Finished initialization in %.2f seconds." % (end_time - start_time))
 
+    """
+    Returns the distance between two zipcodes
+    """
     def get_dist(self, zip1, zip2):
         if not zip1 in self.mappings.keys():
             raise Exception("Unknown location data for zip="+ str(zip1))
@@ -68,6 +90,9 @@ class DistMatrix():
 
         return self.matrix[zip1][self.mappings[zip2]].dist
 
+    """
+    Returns a list of the nearest zip codes to z0 that are in valid_zipcodes.
+    """
     def get_nearest(self, original_zip, num_neighbors, valid_zipcodes):
         neighbors = copy.deepcopy(self.matrix[original_zip])
         neighbors.sort()
@@ -85,6 +110,9 @@ class DistMatrix():
             index += 1
         return nearest_neighbors
 
+    """
+    Write the distances of zip codes to an output file.
+    """
     def write_out(self):
         f = open("distances.csv", 'w')
         f.write("Zip1,Zip2,Distance(miles)\n")
@@ -97,6 +125,10 @@ class DistMatrix():
                     str(self.matrix[zip1][self.mappings[zip2]])+"\n")
         f.close()
 
+"""
+This is the class to be used by other source files. This class efficiently
+stores the distances between various zip codes.  
+"""
 class DistGrid():
     def __init__(self):
         f = open("ohio-zip-code-latitude-and-longitude.csv", 'r')
@@ -127,6 +159,9 @@ class DistGrid():
             i2 = self.zipcodes[z2]
             self.matrix[i1][i2] = pkt
 
+    """
+    Returns the distance between two zipcodes
+    """
     def get_dist(self, zip1, zip2):
         if not zip1 in self.zipcodes.keys():
             raise Exception("Unknown location data for zip="+ str(zip1))
@@ -139,6 +174,9 @@ class DistGrid():
 
         return self.matrix[i1][i2].dist
 
+    """
+    Returns a list of the nearest zip codes to z0 that are in valid_zipcodes.
+    """
     def get_nearest(self, z0, num_neighbors, valid_zipcodes):
         i0 = self.zipcodes[z0]
         sorted_neighbors = copy.deepcopy(self.matrix[i0])
