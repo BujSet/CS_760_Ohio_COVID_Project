@@ -1,4 +1,14 @@
+"""
+The contents of this file implement a program that reads through very
+specific files to collate zip code toa single output dataset. This program 
+has already been run to create an comprehensive dataset, so there is not need
+for it to be run again.
 
+@author: Ranganath (Bujji) Selagamsetty
+@author: Matthew Viens
+"""
+
+# List of files to read from
 files = ["counties_by_zip_code.csv",
          "OH_COVIDSummaryDataZIP_11_29_20.csv",
          "ohio_pop_by_city.csv",
@@ -7,6 +17,9 @@ files = ["counties_by_zip_code.csv",
          "Population_By_County.csv",
          "us-zip-code-latitude-and-longitude.csv"]
 
+"""
+Simple class to associate parsed data with zipcodes
+"""
 class Data:
     def __init__(self):
         self.zip_code = None
@@ -35,6 +48,9 @@ class Data:
     def __hash__(self):
         return hash(self.zip_code)
 
+    """
+    Returns a list of all collected features from a data sample 
+    """
     def toList(self):
         result = []
         result.append(self.zip_code)
@@ -52,11 +68,12 @@ class Data:
         result.append(self.num_uni_students)
         return result
 
+    """
+    Used to create a CSV
+    """
     def __str__(self):
         string = ""
         string += str(self.zip_code) + ","
-        # string += str(self.city) + ","
-        # string += str(self.county) + ","
         string += str(self.population) + ","
         string += str(self.case_count_cumulative) + ","
         string += str(self.case_count_last_30_days) + ","
@@ -72,6 +89,10 @@ class Data:
 
 dataset = dict()
 
+###############################################################################
+#                             PARSE THROUGH FILE 1                            #
+###############################################################################
+
 f = open("counties_by_zip_code.csv", 'r')
 lines = f.readlines()
 f.close()
@@ -86,6 +107,10 @@ for i in range(len(lines)):
     data_point.city = tokens[1].strip()
     data_point.county = tokens[2].strip()
     dataset[data_point.zip_code] = data_point
+
+###############################################################################
+#                             PARSE THROUGH FILE 2                            #
+###############################################################################
 
 f = open("OH_COVIDSummaryDataZIP_11_29_20.csv", 'r')
 lines = f.readlines()
@@ -111,7 +136,7 @@ for i in range(len(lines)):
             str_row += c
     writeLines.append(str_row)
 
-
+# Rewrite data file to remove pesky characters
 f = open("OH_COVIDSummaryDataZIP_11_29_20___1.csv", 'w')
 lines = f.writelines(writeLines)
 f.close()
@@ -120,6 +145,9 @@ f = open("OH_COVIDSummaryDataZIP_11_29_20___1.csv", 'r')
 lines = f.readlines()
 f.close()
 
+"""
+Simple helper function to convert a string to the right data type
+"""
 def convert(string):
     if string.strip() == "N/A":
         return None
@@ -157,6 +185,10 @@ for i in range(len(lines)):
         datas_point.case_count_per_100K_last_14_days =  convert(tokens[7])
         dataset[zip_code] = data_point
 
+###############################################################################
+#                             PARSE THROUGH FILE 3                            #
+###############################################################################
+
 f = open("pop_density.csv", 'r')
 lines = f.readlines()
 f.close()
@@ -183,6 +215,10 @@ for i in range(len(lines)):
         datas_point.case_count_per_100K_last_14_days = None
         data_point.population_density = pop_den
         dataset[zip_code] = data_point
+
+###############################################################################
+#                             PARSE THROUGH FILE 4                            #
+###############################################################################
 
 f = open("ohio_univerisities_information.csv", 'r')
 lines = f.readlines()
@@ -213,6 +249,11 @@ for i in range(len(lines)):
         data_point.num_universities = 1
         data_point.num_uni_students = students
         dataset[zip_code] = data_point
+
+###############################################################################
+#                        PUTPUT THE COLLATED DATASET                          #
+###############################################################################
+
 
 count = 0
 for k,v in dataset.items():

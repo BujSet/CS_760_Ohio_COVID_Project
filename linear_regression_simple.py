@@ -73,7 +73,7 @@ lines = f.readlines()[1:]
 f.close()
 
 """
-A lightweight class that associated COVID data to zipcode. Instantiations of 
+A lightweight class that associates COVID data to zipcode. Instantiations of 
 this class can be placed into a set.
 """
 class Data():
@@ -167,6 +167,8 @@ for i in range(len(lines)):
         continue
 
     is_important = [True for i in range(len(FEATURES) + 1)]
+
+    # Determine whether we care about a certain features
     is_important[1] = 'population' in args.features or 'population' == args.label
     is_important[2] = 'cumulative' in args.features or 'cumulative' == args.label
     is_important[3] = 'last_30_days' in args.features or 'last_30_days' == args.label
@@ -179,6 +181,8 @@ for i in range(len(lines)):
     is_important[10] = 'students' in args.features or 'students' == args.label
     
     d_zipcode = int(tokens[0])
+
+    # Treat missing entries in the dataset as 0 valued variables
     d_pop = int(tokens[1]) if is_important[1] else 0
     d_tot = int(tokens[2]) if is_important[2] else 0
     d_30  = int(tokens[3]) if is_important[3] else 0
@@ -235,7 +239,7 @@ total = 0.0
 for i in range(len(y_test)):
     difference = abs(y_pred[i][0] - y_test[i][0])
     error = float(difference) / float(y_test[i][0])
-    total += 100.0 * error
+    total += error
 avg_error = total / len(y_test)
 
 print("Average error rate of: %.2f%%" % (avg_error))

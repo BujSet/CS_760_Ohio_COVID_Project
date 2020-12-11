@@ -1,4 +1,9 @@
-# CS_760_Ohio_COVID_Project
+# COVID-19 Predictors in the State of Ohio 
+
+This project was developed for the course CS-760: Machine Learning (Fall 2020).
+
+Author: Ranganath (Bujji) Selagamsetty   
+Author: Matthew Viens
 
 ## Dependencies
 
@@ -8,7 +13,7 @@ This project uses GeoPy to compute the geodesic distance between two sets of lon
 
 ### scikit-learn  
 
-This project uses the `sklearn.linear_model.LinearRegression()` to create linear predictors for the COVID dataset `dataset.csv`. The official documentation can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).
+This project uses the `sklearn.linear_model.LinearRegression()` to create linear predictors for the COVID dataset `dataset.csv`. It also uses `sklearn.model_selection.train_test_split` to split between Train and Test data. The official documentation can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).
 
 ## Running the Scripts
 
@@ -16,9 +21,9 @@ Running any of the following scripts will yield the error percentage as calculat
 is calculated by splitting the dataset usinge `train_test_split()` that uses 75% of the dataset as the training 
 set and the remaining 25% as the validation set. For repeatability, the random seed of `7` is used during this process.
 
-The error percentage is calculated and reported as:
+The error rate is calculated and reported as:
 
-Error Percentage = (1/N) * 100 * (y<sub>predicted</sub> - y<sub>actual</sub>) / y<sub>actual</sub>  
+Error Rate = (1/N) * (y<sub>predicted</sub> - y<sub>actual</sub>) / y<sub>actual</sub>  
 
 Where N is the number of samples in the test set. 
 
