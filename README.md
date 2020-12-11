@@ -97,43 +97,43 @@ can use the instantiated `DistGrid()` object `distances` for fast access to prep
 
 ### dataset.csv
 
-This file was created by the program `collate.py`. `collate.py` reads from the various CSVs to aggregate data per zipcode.
+This file was created by the program `collate.py`. `collate.py` reads from the various CSVs to aggregate data per zipcode.  
 
 ### OH_COVIDSummaryDataZIP_11_29_20.csv
 
-OH Covid Dataset: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases-by-zipcode
-    Retrieved 11/29/20
+OH Covid Dataset: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases-by-zipcode  
+    Retrieved 11/29/20  
 
 ### ohio_pop_by_city.csv
 
-Ohio Population by City : https://www.ohio-demographics.com/cities_by_population
-    Retrieved 11/29/20
-    Manually scrapped from page
-    10 most populous entries manually augmented with county data from wikipedia, the rest given NaaC (Not Assigned a County) as their code
+Ohio Population by City : https://www.ohio-demographics.com/cities_by_population  
+    Retrieved 11/29/20  
+    Manually scrapped from page  
+    10 most populous entries manually augmented with county data from wikipedia, the rest given NaaC (Not Assigned a County) as their code  
 
 ### ohio_pop_by_zip_code.csv
 
-Ohio Population by zipcode : https://www.ohio-demographics.com/zip_codes_by_population
-    Retrieved 11/29/20
-    Manually scraped from page due to lack of export
+Ohio Population by zipcode : https://www.ohio-demographics.com/zip_codes_by_population  
+    Retrieved 11/29/20  
+    Manually scraped from page due to lack of export  
 
 ### Population_By_County.csv
 
-Ohio Population by Counties : https://www.ohio-demographics.com/counties_by_population
-    Retrieved 11/29/20
-    Manually scrapped from page
+Ohio Population by Counties : https://www.ohio-demographics.com/counties_by_population  
+    Retrieved 11/29/20  
+    Manually scrapped from page  
 
 ### ohio_univerisities_information.csv
 
-Ohio Universities : https://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_Ohio#cite_note-5
-    Retrieved 11/29/20
-    Manually scrapped from page
-    Augmented with latitude/longitude & zip code data from Google Answers on google searching university name and "lat long"
-    County information from Wikipedia
+Ohio Universities : https://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_Ohio#cite_note-5  
+    Retrieved 11/29/20  
+    Manually scrapped from page  
+    Augmented with latitude/longitude & zip code data from Google Answers on google searching university name and "lat long"  
+    County information from Wikipedia  
 
 ### us-zip-code-latitude-and-longitude.csv
 
-US Zip Code Dataset: https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/table/
+US Zip Code Dataset: https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/table/  
     Retrieved 11/29/20
 
 ### ohio-zip-code-latitude-and-longitude.csv
@@ -142,7 +142,7 @@ This file is simply a subset of the `us-zip-code-latitude-and-longitude.csv` fil
 
 ### Extra Sources
 
-Counties by zip code : https://www.zipcodestogo.com/Ohio/
-    Retrieved 11/29/20
+Counties by zip code : https://www.zipcodestogo.com/Ohio/  
+    Retrieved 11/29/20  
     Manually scraped from page
 
