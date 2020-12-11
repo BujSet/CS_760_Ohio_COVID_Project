@@ -8,6 +8,8 @@ This project uses GeoPy to compute the geodesic distance between two sets of lon
 
 ### scikit-learn  
 
+This project uses the `sklearn.linear_model.LinearRegression()` to create linear predictors for the COVID dataset `dataset.csv`. The official documentation can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).
+
 ## Running the Scripts
 
 Running any of the following scripts will yield the error percentage as calculated by the model. This error 
@@ -84,3 +86,63 @@ Note that the results arrays are in terms of results[target_feature, distance_me
 This format carries through to the csv's which are results[:,:,k] for a value of k where the corresponding number of neighbors is noted in the file name.
 All results are saved to the NN_Regression_Results file folder.
 The transpose of these results are used in the written report where it is distance_metric by target feature for a fixed number of neighbors.
+
+## Datasets
+
+### distances.csv
+
+The `distances.py` file created this file to write out the `distances.csv` file. The CSV has all the possible distances between pairs of ZIP codes in Ohio. 
+The distances are calulated using GeoPy's `geodesic()` function. The `DistMatrix()` class worte out the raw distances to a file, but other source files 
+can use the instantiated `DistGrid()` object `distances` for fast access to preprocessed distance information.
+
+### dataset.csv
+
+This file was created by the program `collate.py`. `collate.py` reads from the various CSVs to aggregate data per zipcode.
+
+### OH_COVIDSummaryDataZIP_11_29_20.csv
+
+OH Covid Dataset: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases-by-zipcode
+    Retrieved 11/29/20
+
+### ohio_pop_by_city.csv
+
+Ohio Population by City : https://www.ohio-demographics.com/cities_by_population
+    Retrieved 11/29/20
+    Manually scrapped from page
+    10 most populous entries manually augmented with county data from wikipedia, the rest given NaaC (Not Assigned a County) as their code
+
+### ohio_pop_by_zip_code.csv
+
+Ohio Population by zipcode : https://www.ohio-demographics.com/zip_codes_by_population
+    Retrieved 11/29/20
+    Manually scraped from page due to lack of export
+
+### Population_By_County.csv
+
+Ohio Population by Counties : https://www.ohio-demographics.com/counties_by_population
+    Retrieved 11/29/20
+    Manually scrapped from page
+
+### ohio_univerisities_information.csv
+
+Ohio Universities : https://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_Ohio#cite_note-5
+    Retrieved 11/29/20
+    Manually scrapped from page
+    Augmented with latitude/longitude & zip code data from Google Answers on google searching university name and "lat long"
+    County information from Wikipedia
+
+### us-zip-code-latitude-and-longitude.csv
+
+US Zip Code Dataset: https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/table/
+    Retrieved 11/29/20
+
+### ohio-zip-code-latitude-and-longitude.csv
+
+This file is simply a subset of the `us-zip-code-latitude-and-longitude.csv` file, only recording the ZIP codes in Ohio.
+
+### Extra Sources
+
+Counties by zip code : https://www.zipcodestogo.com/Ohio/
+    Retrieved 11/29/20
+    Manually scraped from page
+

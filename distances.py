@@ -97,8 +97,6 @@ class DistMatrix():
                     str(self.matrix[zip1][self.mappings[zip2]])+"\n")
         f.close()
 
-# Distances = DistMatrix()
-
 class DistGrid():
     def __init__(self):
         f = open("ohio-zip-code-latitude-and-longitude.csv", 'r')
@@ -145,13 +143,6 @@ class DistGrid():
         i0 = self.zipcodes[z0]
         sorted_neighbors = copy.deepcopy(self.matrix[i0])
         sorted_neighbors.sort(key=lambda x: x.dist)
-        # print("Sir Hello")
-        # dists_list = []
-        # for p in sorted_neighbors:
-        #     dists_list.append(p.dist)
-        # print("sorted distances are: " + str(dists_list))
-        # print(self.matrix[i0])
-        # print("hello world")
         sorted_neighbors = sorted_neighbors[1:]
         count = 0
         index = 0
