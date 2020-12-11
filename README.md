@@ -18,7 +18,9 @@ set and the remaining 25% as the validation set. For repeatability, the random s
 
 The error percentage is calculated and reported as:
 
-Error Percentage = 100 * (y<sub>predicted</sub> - y<sub>actual</sub>) / y<sub>actual</sub>
+Error Percentage = (1/N) * 100 * (y<sub>predicted</sub> - y<sub>actual</sub>) / y<sub>actual</sub>  
+
+Where N is the number of samples in the test set. 
 
 ### Running Linear Regression Simple
 
@@ -139,6 +141,11 @@ US Zip Code Dataset: https://public.opendatasoft.com/explore/dataset/us-zip-code
 ### ohio-zip-code-latitude-and-longitude.csv
 
 This file is simply a subset of the `us-zip-code-latitude-and-longitude.csv` file, only recording the ZIP codes in Ohio.
+
+### pop_density.csv 
+
+Ohio Population Density Zip Code Rank: http://www.usa.com/rank/ohio-state--population-density--zip-code-rank.htm  
+    Retrieved 12/1/2020  
 
 ### Extra Sources
 
