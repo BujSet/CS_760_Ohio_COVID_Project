@@ -141,7 +141,7 @@ y_pred = np.array(reg.predict(X_test))
 assert(len(y_test) == len(y_pred))
 total = 0.0
 for i in range(len(y_test)):
-    total += (100.0 * abs(y_pred[i][0] - y_test[i][0])) / y_test[i][0]
+    total += abs(y_pred[i][0] - y_test[i][0]) / y_test[i][0]
 avg_error = total / len(y_test)
 
 print("Average error rate of: %.2f%%" % (avg_error))

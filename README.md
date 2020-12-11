@@ -2,7 +2,7 @@
 
 This project was developed for the course CS-760: Machine Learning (Fall 2020).
 
-Author: Ranganath (Bujji) Selagamsetty  
+Author: Ranganath (Bujji) Selagamsetty   
 Author: Matthew Viens
 
 ## Dependencies
@@ -21,9 +21,9 @@ Running any of the following scripts will yield the error percentage as calculat
 is calculated by splitting the dataset usinge `train_test_split()` that uses 75% of the dataset as the training 
 set and the remaining 25% as the validation set. For repeatability, the random seed of `7` is used during this process.
 
-The error percentage is calculated and reported as:
+The error rate is calculated and reported as:
 
-Error Percentage = (1/N) * 100 * (y<sub>predicted</sub> - y<sub>actual</sub>) / y<sub>actual</sub>  
+Error Rate = (1/N) * (y<sub>predicted</sub> - y<sub>actual</sub>) / y<sub>actual</sub>  
 
 Where N is the number of samples in the test set. 
 

@@ -239,7 +239,7 @@ total = 0.0
 for i in range(len(y_test)):
     difference = abs(y_pred[i][0] - y_test[i][0])
     error = float(difference) / float(y_test[i][0])
-    total += 100.0 * error
+    total += error
 avg_error = total / len(y_test)
 
 print("Average error rate of: %.2f%%" % (avg_error))
